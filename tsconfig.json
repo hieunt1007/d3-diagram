@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "sourceMap": true,
+    "listEmittedFiles": true,
+    "module": "amd",
+    "outDir": "dist",
+    "newLine": "lf",
+    "removeComments": true,
+    "strictNullChecks": true
+  },
+  "compileOnSave": false,
+  "exclude": [
+    "node_modules",
+    "dist",
+    "demo"
+  ],
+  "paths": {
+    "*": [
+      "*",
+      "src/@types/**/*"
+    ]
+  }
+}

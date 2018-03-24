@@ -1,0 +1,30 @@
+{
+  "name": "d3Diagram",
+  "version": "1.0.0",
+  "description": "D3 diagram",
+  "author": "hieunguyen",
+  "dependencies": {
+    "dagre": "0.7.4",
+    "graphlib": "2.1.1"
+  },
+  "devDependencies": {
+    "core-js": "^2.4.1",
+    "kld-intersections": "latest",
+    "npm-run-all": "^3.1.0",
+    "ts-loader": "^1.2.2",
+    "tslint": "^4.0.2",
+    "tslint-loader": "^3.2.0",
+    "typescript": "^2.1.1",
+    "typings": "^2.0.0",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.1"
+  },
+  "scripts": {
+    "wp_watch": "webpack -w --progress --colors",
+    "wp_ds": "webpack-dev-server --hot --inline",
+    "dev": "npm-run-all -p -r wp_watch wp_ds",
+    "install": "typings install dt~d3 --global --save;typings install dt~dagre --global --save;typings install dt~core-js --global --save",
+    "s": "typings search --name kld-intersections"
+  },
+  "license": "MIT"
+}

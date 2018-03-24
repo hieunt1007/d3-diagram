@@ -1,0 +1,14 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "quotemark": [true, "single", "avoid-escape"],
+    "one-variable-per-declaration": false,
+    "ordered-imports": false,
+    "no-console": false,
+    "object-literal-sort-keys": false,
+    "trailing-comma": false,
+    "object-literal-shorthand": false,
+    "no-namespace": [true, "allow-declarations"]
+  }
+
+}

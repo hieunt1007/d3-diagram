@@ -1,0 +1,15 @@
+{
+  "js": {
+    "end_with_newline": true,
+    "comma_first": false,
+    "indent-size": 2
+  },
+  "css": {
+    "end_with_newline": true,
+    "selector_separator_newline": true,
+    "newline_between_rules": true
+  },
+  "html": {
+    "end_with_newline": true
+  }
+}
